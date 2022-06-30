@@ -8,6 +8,7 @@
 
 .navbar {
   margin: 20px 50px 40px;
+  padding: 0;
 }
 
 .navbar-nav {
@@ -16,20 +17,14 @@
 }
 
 .nav-link {
+  font-weight: 400;
   color: #0a0e2e !important;
 }
 
+.nav-link.active,
 .nav-link:hover {
   font-weight: 600;
   color: #0a0e2e;
-}
-
-.active {
-  font-weight: 600;
-}
-
-.container-fluid {
-  padding: 0;
 }
 
 .btn-sign-in {
@@ -134,7 +129,7 @@
     margin: 20px 0 40px;
   }
 
-  .container-fluid {
+  .navbar {
     padding: 0 12px;
   }
 
